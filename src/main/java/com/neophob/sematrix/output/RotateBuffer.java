@@ -143,6 +143,10 @@ public final class RotateBuffer {
 		case NO_ROTATE:
 			return buffer;
 
+		case NO_ROTATE_FLIPPEDY:
+			return flipY(buffer,	deviceXSize, deviceYSize
+			);					
+			
 		case ROTATE_90:
 			return rotate90(buffer, deviceXSize, deviceYSize);			
 

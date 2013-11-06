@@ -27,6 +27,9 @@ public enum DeviceConfig {
 	
 	/** The No rotate. */
 	NO_ROTATE,
+
+	/** flippedy. */
+	NO_ROTATE_FLIPPEDY,	
 	
 	/** The ROTATE 90. */
 	ROTATE_90,
