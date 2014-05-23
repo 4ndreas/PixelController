@@ -242,6 +242,7 @@ public class Tpm2Net extends Output {
 			sendTpm2NetPacketOut(2, rgbBuffer);
 			
 			
+			
 		}
 	}
 
